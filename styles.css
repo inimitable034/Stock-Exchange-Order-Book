@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    border: 1px solid transparent;
+    background-color: rgb(40, 55, 121);
+}
+
+.content {
+    min-height: 100%;
+    position: relative;
+    margin-bottom: -60px;
+}
+
+.order-table {
+    overflow-y: auto;
+    height: 400px;
+}
+
+.main-column {
+    width: 200px;
+    margin: auto;
+    color: #ee31a5;
+}
+
+.updated-order {
+    color: #33ff00;
+}
+
+.row,.text-left,.text-right {
+    color: rgb(128, 255, 0);
+}
+
+td, th {
+    width: 100px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.spread {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(18, 13, 19);
+}
+
+/* Scrollbar styling */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1b1818;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(240, 18, 18);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
